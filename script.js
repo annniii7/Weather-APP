@@ -73,3 +73,4 @@ async function othercityweather(city) {
 othercityweather("lucknow");
 othercityweather("Pune");
 othercityweather("Bangalore");
+othercityweather("chnadigarh");
