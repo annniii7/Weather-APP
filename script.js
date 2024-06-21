@@ -25,7 +25,7 @@ async function getWeather(city) {
 }
 
 submit.addEventListener("click", (e) => {
-    e.preventDefault()
+    e.preventDefault()//to prevent reload
     getWeather(city.value);
 
 })
